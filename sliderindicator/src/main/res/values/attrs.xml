@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="sliderIndicator">
+        <attr name="select" format="color" />
+        <attr name="unselect" format="color" />
+        <attr name="type" format="enum">
+            <enum name="CIRCLE" value="0" />
+            <enum name="RECTANGLE" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>
