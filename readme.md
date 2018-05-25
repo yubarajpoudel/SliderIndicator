@@ -1,10 +1,13 @@
-﻿**SliderIndicator **
-Easy and light weight native like indicator library and can easily integrate with with ViewPager.
+SliderIndicator
+=========
 
-in the app > build.gradle file add the following
+## Easy and light weight native like indicator library and can easily integrate with with ViewPager.
+
+**in the app, build.gradle file add the following**
 
  `implementation 'com.yuvi.widget:sliderindicator:1.0.1'`
-Maven
+
+**Maven**
 
     <dependency>
       <groupId>com.yuvi.widget</groupId>
