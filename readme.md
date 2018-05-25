@@ -16,7 +16,7 @@ SliderIndicator
       <type>pom</type>
     </dependency>
 
-Adding in the Layout
+**Adding in the Layout**
 
     <?xml version="1.0" encoding="utf-8"?>
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -56,7 +56,7 @@ Adding in the Layout
     
     </LinearLayout>
 
-in Java Activity 
+**In Java Activity** 
  
 
      ViewPager pager = findViewById(R.id.pager);
@@ -78,7 +78,7 @@ in Java Activity
             SliderIndicator sliderIndicator2 = findViewById(R.id.sliderIndicator2);
             sliderIndicator2.addWithSlider(pager);
 
-OutPut
+**OutPut**
 ![Round Indicator](https://github.com/yuviii/SliderIndicator/blob/master/device-2018-05-25-082444.png?raw=true)
 
 ![enter image description here](https://github.com/yuviii/SliderIndicator/blob/master/device-2018-05-25-082548.png?raw=true)
