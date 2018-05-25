@@ -30,7 +30,10 @@ public class MainActivity extends AppCompatActivity {
             }
         };
         pager.setAdapter(adapter);
-        SliderIndicator sliderIndicator = findViewById(R.id.sliderIndicator);
-        sliderIndicator.addWithSlider(pager);
+        SliderIndicator sliderIndicator1 = findViewById(R.id.sliderIndicator1);
+        sliderIndicator1.addWithSlider(pager);
+
+        SliderIndicator sliderIndicator2 = findViewById(R.id.sliderIndicator2);
+        sliderIndicator2.addWithSlider(pager);
     }
 }

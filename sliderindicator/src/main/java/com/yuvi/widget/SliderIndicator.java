@@ -41,7 +41,7 @@ public class SliderIndicator extends LinearLayout {
         // color when the indicator is unselected
         unselectColor = typedArray.getColor(R.styleable.sliderIndicator_unselect, Color.GRAY);
         // define what type of the indicator should be used either circular or the rectangular
-        int shape = typedArray.getInt(R.styleable.sliderIndicator_type, 0);
+        type_shape = typedArray.getInt(R.styleable.sliderIndicator_type, 0);
         // show how many indicators is needed
 
         typedArray.recycle();

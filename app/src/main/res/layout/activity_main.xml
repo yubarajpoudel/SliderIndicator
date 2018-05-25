@@ -14,13 +14,24 @@
         app:layout_constraintHorizontal_weight="1"/>
 
     <com.yuvi.widget.SliderIndicator
-        android:id="@+id/sliderIndicator"
+        android:id="@+id/sliderIndicator1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:orientation="horizontal"
         app:select="#FF0000"
         app:type="CIRCLE"
+        app:unselect="#FFEB3B" />
+
+    <com.yuvi.widget.SliderIndicator
+        android:id="@+id/sliderIndicator2"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        app:select="#FF0000"
+        app:type="RECTANGLE"
         app:unselect="#FFEB3B" />
 
 </LinearLayout>

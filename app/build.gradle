@@ -1,29 +1,5 @@
 apply plugin: 'com.android.application'
 
-ext {
-    bintrayRepo = 'SimpleHttp'
-    bintrayName = 'SimpleHttpAndroid'
-
-    publishedGroupId = 'com.mantraideas.simplehttp'
-    libraryName = 'simplehttp'
-    artifact = 'simplehttp'
-
-    libraryDescription = 'A Simpe HTTP client for android and the Java Application'
-
-    siteUrl = 'https://github.com/yuviii/SimpleHttpAndroid'
-    gitUrl = 'https://github.com/yuviii/SimpleHttpAndroid.git'
-
-    libraryVersion = '2.0.2'
-
-    developerId = 'yuviii'
-    developerName = 'Yubaraj Poudel'
-    developerEmail = 'yubarajpoudel708@gmail.com'
-
-    licenseName = 'The Apache Software License, Version 2.0'
-    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-    allLicenses = ["Apache-2.0"]
-}
-
 android {
     compileSdkVersion 27
     defaultConfig {
@@ -51,5 +27,3 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation project(':sliderindicator')
 }
-apply from: 'https://raw.githubusercontent.com/numetriclabz/jcenter/master/installv.gradle'
-apply from: 'https://raw.githubusercontent.com/numetriclabz/jcenter/master/bintrayv.gradle'
