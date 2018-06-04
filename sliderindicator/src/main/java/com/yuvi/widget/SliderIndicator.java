@@ -48,6 +48,7 @@ public class SliderIndicator extends LinearLayout {
         LayoutParams layoutParams = new LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         this.setOrientation(HORIZONTAL);
         this.setLayoutParams(layoutParams);
+        this.removeAllViews();
     }
 
     public void addWithSlider(final ViewPager sliderView) {
